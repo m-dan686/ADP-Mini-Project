@@ -1,0 +1,88 @@
+
+<html>
+<head>
+    <title> Jonnu's Grocery Store - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+main {
+    padding: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+#contact {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #101010;
+    border-radius: 2px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #45a049;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Jonnu's Grocery Store</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="contact.html">Contact</a>
+                <a href="cart2.html">Cart</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <form action="/submit" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="phno">Phone Number:</label>
+                <input type="tel" id="subject" name="phno" required><br>
+                <label for="Address">Address</label>
+                <textarea id="message" name="Address" rows="3" cols="50" required></textarea><br>
+                <label for="message">Query:</label><br>
+                <textarea id="message" name="message" rows="3" cols="50" required></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Grocery Delivery. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

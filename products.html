@@ -1,0 +1,104 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Jonnu's Grocery Store - Products</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2,h1{
+            height:60px;
+            width:100%;
+            background-color: aliceblue;
+            color:rgb(13, 13, 13);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p style="font-size:50px;"> Jonnu's Grocery Store</p>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="contact.html">Contact</a>
+                <a href="cart2.html">Cart</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2 style="font-size:50px;text-align: center;">Our Products</h2>
+        <h1 style="text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-decoration: underline;text-decoration-color: black;">FRUITS</h1>
+        <div class="product-list" id="products">
+            <div class="product">
+                <img src="apple.jpg" alt="Apple">
+                <h3>Apple</h3>
+                <p>₹145/kg</p>
+                <button class="add-to-cart" data-name="Apple" data-price="30.63" id="products">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="banana.jpg" alt="Banana">
+                <h3>Banana</h3>
+                <p>₹55.00/kg</p>
+                <button class="add-to-cart" data-name="Banana" data-price="12.03" id="products">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="orange.jpg" alt="orange">
+                <h3>Orange</h3>
+                <p>₹70.00</p>
+                <button class="add-to-cart" data-name="orange" data-price="23.90" id="products">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="pomegranate.jpg" alt="pomegranate">
+                <h3>Pomegranate</h3>
+                <p>₹260.00</p>
+                <button class="add-to-cart" data-name="pomegranate" data-price="29.60" id="products">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="grapes.jpg" alt="grapes">
+                <h3>Grapes</h3>
+                <p>₹80.00</p>
+                <button class="add-to-cart" data-name="grapes" data-price="18.70" id="cart-body">Add to Cart</button>
+            </div>
+        </div>
+        <h1 style="text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-decoration: underline;text-decoration-color: black;">VEGETABLES</h1>
+        <div class="product-list" id="vegetables">
+            <div class="product">
+                <img src="potato.jpg" alt="potato">
+                <h3>Potato</h3>
+                <p>₹60.00/kg</p>
+                <button class="add-to-cart" data-name="potato" data-price="20.53">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="tomato.jpg" alt="tomato">
+                <h3>Tomato</h3>
+                <p>₹48.00/kg</p>
+                <button class="add-to-cart" data-name="tomato" data-price="15.64">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="onion.jpg" alt="onion">
+                <h3>Onion</h3>
+                <p>₹45.00</p>
+                <button class="add-to-cart" data-name="onion" data-price="17.50">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="carrot.jpg" alt="carrot">
+                <h3>Carrot</h3>
+                <p>₹90.00</p>
+                <button class="add-to-cart" data-name="carrot" data-price="23.89">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="ladysfinger.jpg" alt="ladysfinger">
+                <h3>Lady's Finger</h3>
+                <p>₹60.00</p>
+                <button class="add-to-cart" data-name="ladysfinger" data-price="34.68">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Grocery Store</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

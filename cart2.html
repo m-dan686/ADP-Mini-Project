@@ -1,0 +1,46 @@
+
+<html>
+<head>
+    <title>Grocery Cart</title>
+    <link rel="stylesheet" href="cart.2.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="cart2.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1> Jonnu's Grocery Store</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="contact.html">Contact</a>
+                <a href="cart.html">Cart</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <table id="cart-table">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity in kg</th>
+                    <th>Price per kg</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="cart-body">
+                <!-- Cart items will be dynamically added here -->
+            </tbody>
+        </table>
+        <div id="cart-summary">
+            <h2 style="color:aliceblue;font-size: 45px;">Cart Summary</h2><br>
+            <p id="cart-total" style="color:aliceblue;font-size:30px">Total: ₹0.00</p><br>
+            <button onclick="checkout()">Proceed to Checkout</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Grocery Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
